@@ -9,23 +9,42 @@ def clean_title(title):
 def validate_date(raw_date):
     return raw_date if raw_date else "No date available"
 
-def scrape_news(source, output_folder):
-    if not source.startswith("http"):
-        url = f"https://{source}"
-    else:
-        url = source
+def get_title(soup):
+    title_tag = soup.find("title")
+    if title_tag and title_tag.text.strip():
+        return title_tag.text.strip()
+    
+    for tag in ["h1", "h2"]:
+        header_tag = soup.find(tag)
+        if header_tag and header_tag.text.strip():
+            return header_tag.text.strip()
 
+    for tag in ["div", "span"]:
+        candidate_tags = soup.find_all(tag)
+        for candidate in candidate_tags:
+            if candidate.text and len(candidate.text.strip()) > 20:
+                return candidate.text.strip()
+    
+    return "Untitled"
+
+def scrape_news(source, output_folder):
+    if source.startswith("http://"):
+        url = source
+    elif source.startswith("https://"):
+        url = source
+    else:
+        url = f"https://{source}"
+    
     try:
         response = requests.get(url)
     except Exception as e:
-        print(f"❌ Не вдалося отримати дані з URL {url}. Помилка: {e}")
+        print(f"❌ Failed to retrieve data from URL {url}. Error: {e}")
         return None
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
 
-        title_tag = soup.find("title")
-        raw_title = title_tag.text if title_tag else "Untitled"
+        raw_title = get_title(soup)
         title = clean_title(raw_title)
 
         time_tag = soup.find("time")
@@ -37,7 +56,7 @@ def scrape_news(source, output_folder):
 
         img_tag = soup.find("img")
         image_url = img_tag["src"] if img_tag and img_tag.get("src") else None
-        image_path = download_image(image_url, output_folder, title) if image_url else None
+        image_path = image_url
 
         meta_author = soup.find("meta", {"name": "author"})
         author = meta_author["content"] if meta_author and meta_author.get("content") else "Unknown author"
