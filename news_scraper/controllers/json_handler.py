@@ -2,11 +2,10 @@ import json
 import os
 
 def save_to_json(news_data, output_folder):
-    """Saves news data to a separate JSON file."""
     news_dict = news_data.to_dict()
     title = news_dict["document"]["title"]
 
-    sanitized_title = "".join([c for c in title if c not in r'\/:*?"<>|']).strip()
+    sanitized_title = "_".join(title.split()).strip()
 
     os.makedirs(output_folder, exist_ok=True)
     filename = os.path.join(output_folder, f"{sanitized_title}.json")
