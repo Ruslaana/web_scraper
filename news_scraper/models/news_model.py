@@ -1,10 +1,10 @@
 class NewsModel:
-    def __init__(self, source, title, content, date, image_url, author, related_links):
+    def __init__(self, source, title, content, publication_time, image_url, author, related_links):
         self.source = source
         self.title = title
         self.content = content
-        self.date = date
         self.image_url = image_url
+        self.publication_time = publication_time
         self.author = author
         self.related_links = related_links
 
@@ -17,8 +17,8 @@ class NewsModel:
                 "content": self.content,
                 "metadata": {
                     "source": self.source,
-                    "date": self.date,
                     "image_url": self.image_url,
+                    "publication_time": self.publication_time,
                     "author": self.author,
                     "related_links": self.related_links,
                     "attachments": []
