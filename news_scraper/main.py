@@ -10,12 +10,13 @@ sitemap_url = "https://www.berlingske.dk/sitemap.xml/tag/1"
 response = requests.get(sitemap_url)
 response.raise_for_status()
 root = ET.fromstring(response.content)
+
 loc_urls = root.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
 
 print(f"Number of news: {len(loc_urls)}")
 
 
-news_urls = [url.text for url in loc_urls[:5]] 
+news_urls = [url.text for url in loc_urls] 
 
 for news_url in news_urls:
     try:
