@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/virksomheder/smart-tv-har-lemfaeldig-omgang-med-brugerdata",
+        "title": "Smart-TV har lemfældig omgang med brugerdata",
+        "content": "BERLIN: Smart-TV-apparater har en lemfældig omgang med brugernes data og udgør en sikkerhedsrisiko. Det konkluderer tyske forskere fra Ruhr-Universitetet i Bochum efter at have set på, hvad der egentlig foregår bag TV-skærmen, når man bruger smart-TV-funktionerne, hvor man kan have apps ganske som på mobiltelefoner og f.eks. tilgå Facebook eller forskellige filmtjenester via internetforbindelsen, som fjernsynet er koblet på. Resultatet er ikke opløftende. Flere apps overfører brugeroplysninger og kodeord helt ukrypteret over internetforbindelsen, og dermed er de lette angrebsmål for hackere og andre spioner, skriver Neue Zürcher Zeitung.  Værst står det til hos Samsung, som er verdens største TV-producent. Fire af 16 undersøgte apps - heriblandt to af de meget store, nemlig Facebook og Ebay - består ikke en sikkerhedstest, hvor det hos den tyske elektronikproducent Grundig er tre af syv tilfælde. Det lykkedes sågar forskerne at få fingrene i logindoplysningerne på Samsungs såkaldt »Single sign-on«-funktion, altså selve grundadgangsnavn og kodeord. Derved kan en hacker overtage selve ens brugerkonto på både TVet og en eventuelt tilkoblet smartphone eller tavle-PC. Til sammenligning er der kun en enkelt app, Watchever, på streamingboksen Apple-TV, som sender de personlige oplysninger af sted uden at beskytte dem. Berlingske dækker IFA på www.b.dk/tech, www.business.dk/digital og i den trykte avis. Berlingske er inviteret af Branchen Forbrugerelektronik (BFE). ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/smart-tv-har-lemfaeldig-omgang-med-brugerdata",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/10/105760/10502711-pix-smart-tv.jpg",
+            "publication_time": "Søndag d. 06. september 2015, kl. 16.25",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

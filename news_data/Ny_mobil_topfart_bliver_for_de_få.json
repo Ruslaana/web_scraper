@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/virksomheder/ny-mobil-topfart-bliver-for-de-faa",
+        "title": "Ny mobil topfart bliver for de få",
+        "content": "Med et teknisk kunstgreb fordobler TDC hastigheden på sit mobilnet i Danmark. Men kun få kan være med i topfart. 500 af de 3.300 master og antenner, som TDC har i Danmark, er nu klar til at kunne køre med mobile internethastigheder på 300 megabit i sekundet mod hidtil 150 megabit i sekundet. De står i de centrale områder af København, Aarhus, Odense, Aalborg, Holstebro, Viborg, Esbjerg, Næstved og Slagelse. Fordoblingen har nok - i overført betydning - større signalværdi end egentlig praktisk værdi. Det er nemlig meget få, der har telefoner og andet udstyr, som kan håndtere den nye teknik, som i daglig tale kaldes for 4G+ for at signalere, at den er skridtet over det almindelige 4G-/LTE-net. Men efterhånden som folks udstyr skiftes ud til nyt, vil flere kunne blive fartbøller på nettet. Rent teknisk gør 4G+ det muligt at kombinere flere forskellige mobilfrekvenser. Dermed øges kapaciteten og farten, om end kunderne ikke senere skal forvente at kunne nå op på 300 megabit i sekundet, som er den teoretiske tophastighed. Det vil nemlig kræve, at kun få andre benytter den samme mast i nærheden. »Princippet er det samme som at udbygge motorveje, hvor flere spor ikke i sig selv giver højere hastighed. Men trafikken afvikles bedre og med mindre kø. Flere mennesker kan altså komme hurtigere frem samtidig,« forklarer Peter Schleidt, koncerndirektør i TDC med ansvar for TDCs netværk. Overgangen til 4G+ er nødvendig for at sikre sig, at mobilnettene ikke bukker under, efterhånden som danskernes dataforbrug vokser. Også TDCs konkurrenter - Telenor, Telia og »3« - arbejder på at kombinere mobilfrekvenserne og dermed få større kapacitet og højere hastigheder. Oveni vil der i løbet af i år være premiere på den såkaldte »Voice over LTE«-teknologi (kaldet VoLTE), hvor 4G-/LTE-mobilnettene også vil kunne bruges til tale, hvad de ikke kan i dag. Det har flere fordele. Selve lydkvaliteten er bedre end på de øvrige slags mobilnet, hvis begge samtalepartnere har en af de nyere telefoner, som faktisk kan håndtere tale på 4G/LTE. Desuden er der ingen forsinkelse, fra man trykker »ring op«, til modtagetelefonen faktisk ringer. Endelig vil tale- og datafunktioner kunne kobles sammen på hidtil uset vis, hvis alt foregår på 4G-/LTE-nettet, der leverer datahastigheder, som er fem-ti gange hurtigere end på 3G-mobilnettet.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/ny-mobil-topfart-bliver-for-de-faa",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/13/133528/9525221-pix-4g-tale.jpg",
+            "publication_time": "Torsdag d. 02. juli 2015, kl. 13.30",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/samfund/populaer-app-udsat-for-hackerangreb-kundedata-er-laekket",
+        "title": "Populær app udsat for hackerangreb: Kundedata er lækket",
+        "content": "Den 10. december blev Europas største parkeringsapp, EasyPark, ramt af et hackerangreb. Det har resulteret i læk af »ikke-følsomme kundedata«, meddeler selskabet i dag. Hackerne har fået adgang til kunders navn, telefonnummer, adresse, e-mail og enkelte cifre i betalingskort, tilknyttet i appen. »Dog kan man ikke foretage betalinger med denne ufuldstændige information. Ingen kombination af disse data kan anvendes til at gennemføre betalinger,« skriver EasyPark på deres hjemmeside. Samtidig gør virksomheden opmærksom på, at man bør være særlig opmærksom på phishing – svindlere, der vil kontakte de berørte kunder for at forsøge at lokke de resterende betalingsinformationer ud af dem. Virksomheden skriver desuden, at der er »truffet de nødvendige foranstaltninger for at beskytte vores kunder«, ligesom de relevante myndigheder er underrettet. EasyPark, der har mere end 450.000 kunder på tværs af Europa, meddeler, at både interne og eksterne sikkerhedseksperter er tilknyttet, og at de »arbejder hårdt for at sikre effektiv sikkerhed og beskyttelse af brugernes private oplysninger«. Kunder, der er berørt af hackerangrebet, vil løbende blive kontaktet, men du kan også selv åbne EasyPark-appen for at se, om du er berørt af angrebet. EasyPark har sendt en sms til deres kunder, hvor de informerer om hackerangrebet.Fold sammenLæs mereFoto: Privat.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/samfund/populaer-app-udsat-for-hackerangreb-kundedata-er-laekket",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/174/1748614/24600997-easypark-har-mere-end-450000-brugere.jpg",
+            "publication_time": "Fredag d. 22. december 2023, kl. 18.08",
+            "author": "Sofie Amalie Elmelund",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

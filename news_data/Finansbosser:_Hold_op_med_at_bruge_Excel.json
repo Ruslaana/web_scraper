@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/virksomheder/finansbosser-hold-op-med-at-bruge-excel",
+        "title": "Finansbosser: Hold op med at bruge Excel",
+        "content": "Hold op med at bruge Excel. Det siger finansdirektørerne i flere store virksomheder, som mener, at Microsofts Excel-regneark har overlevet sig selv, ikke er fulgt med udviklingen og derfor bør sendes på pension, skriver den amerikanske finansavis Wall Street Journal. »Jeg vil ikke have, at finansfolk skal bruge deres tid på at importere og eksportere og bearbejde dada. De skal fokusere på, hvad dataene fortæller os,« siger Adobes finansdirektør, Mark Garrett. Han er træt af Excel, som han derfor arbejder på at få pensioneret, fordi det ikke hænger ordentligt sammen med egentlige økonomi- og personalesystemer, som bruges nutildags. Kritikken fra ham og fra finansdirektører i andre selskaber, som avisen har talt med, hæfter sig ved fejl, som kan opstå, fordi data lægges over i Excel fra andre systemer og ikke automatisk opdateres. I ældre udgaver af regnearksprogrammet kan man heller ikke arbejde flere sammen om samme regneark, og endelig er der en grænse for, hvor mange data man kan overføre til et Excel-ark. Det gør det langsomt at analysere dataene og få overblik. Analytiker Paul Hammerman fra analysefirmaet Forrester Research forstår kritikken. »Excel var bare ikke designet til at skulle bruges til de tunge analyseopgaver, som virksomhederne har brug for på finansområdet,« siger han.  Selv om der findes masser af andre regnearksprogrammer, er det Excel, der er blevet standarden og dermed det, som bruges overalt, hvor tal skal lægges sammen eller analyseres. Mange vælger i stedet at bruge software, som kører over internetforbindelsen, og som er i stand til at arbejde direkte sammen med større virksomhedsstyringssystemer (ERP) fra blandt andre amerikanske Oracle og tyske SAP. Denne form for software kan samle og analysere data og vise dem i et samlet overblik. Og dette sikrer ifølge Adobes Mark Garrett, at der er »én kilde til sandheden« - ud over at det går hurtigere. Microsofts ansvarlige for Excel, Brian Jones, siger til Wall Street Journal, at Excel er blevet kraftigt udviklet gennem de seneste år for netop at tilpasse sig de ændrede behov. Mange af de mere avancerede systemer har dog stadig en »Eksportér til Excel«-knap. »Man vil stadig skulle bruge Excel til de ting, som der ikke findes skræddersyede løsninger til,« siger Brian Jones. ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/finansbosser-hold-op-med-at-bruge-excel",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/4/45015/19219121-pix-excel.jpg",
+            "publication_time": "Torsdag d. 23. november 2017, kl. 09.15",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

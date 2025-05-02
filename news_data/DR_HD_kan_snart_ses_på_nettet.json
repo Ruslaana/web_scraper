@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/videnskab/dr-hd-kan-snart-ses-paa-nettet",
+        "title": "DR HD kan snart ses på nettet",
+        "content": "Alle DRs tv-kanaler kan ses på nettet. Bort set fra DR HD. Det bliver der lavet om på i næste måned. DR oplyser til ComON, at kanalen, der hovedsagligt bringer HD-produktioner, kan ses i netafspilleren DR.nu Live fra midten af september. Sandsynligvis fra d. 15 september, skriverComON. HD-kanalens debut på nettet har ladet vente på sig. Blandt er der brugt tid på at teste den mest optimale streamingkvalitet. DR HD bliver trods navnet nemlig ikke streamet i fuld HD på nettet. Erik Nørgaard Graversen, der redaktør for DR On Demand, kalder kvalitet for HQ (high quality). \"Vi lavede en række test ud fra flere kriterier. Blandt andet at der skulle være en tydelig forskel i billedkvaliteten, og at brugernes cpu'er skulle kunne klare det. Vi har testet på en række gamle og nye maskiner og kom frem til, at 1,7 Mbit er det bedste kompromis,\" siger Erik Nørgaard Graversen. DRs teknikere har også prøvet at sende i en kvalitet på 2,5 Mbit, men den højere kvalitet og datamængde gav altså så lille en forbedret kvalitet hos slutbrugerne, at det ikke kunne retfærdiggøres. DR HD får dog med 1,7 Mbit en højere kvalitet end resten af tv-stationens andre kanaler på nettet, der sendes i 1 Mbit. Kanalens nye tilværelse på nettet sker samtidigt med, at DR får et nyt ungdomsunivers for børn og unge op til 25 år ved navn DR Mama. DR Mama bliver sendt på DR HD. DR har i øvrigt lovet, at en dedikeret video-afspiller til mobile enheder også er på vej.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/dr-hd-kan-snart-ses-paa-nettet",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/71/719473/4452514-us-analog-televi.jpg",
+            "publication_time": "Mandag d. 22. august 2011, kl. 15.05",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

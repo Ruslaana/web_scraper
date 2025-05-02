@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/virksomheder/rejsekaos-i-usa-truer-til-sommer-hoejdemaalere-i-fly-forstyrres-af-5g",
+        "title": "Rejsekaos i USA truer til sommer: Højdemålere i fly forstyrres af 5G-mobilsignaler",
+        "content": "Det kommer ikke på tale at udskyde den frist, som flyselskaberne har til at få udskiftet deres højdemålere, så de ikke bliver forstyrret af de nye 5G-mobilsignaler. Det kan medføre kaos i de amerikanske lufthavne med aflyste afgange. USAs transportminister, Pete Buttigieg, som sammen med luftfartsmyndigheden Federal Aviation Administration (FAA) har givet flyselskaberne frist til 1. juli, holder fast i datoen. Flere luftfartsselskaber har ellers advaret om, at de ikke har tid nok til at gennemføre udskiftningen og derfor kan blive tvunget til at holde deres fly på jorden. »Problemer i forsyningskæden gør det usandsynligt, at alle fly kan være opgraderet til fristen 1. juli, og det truer med at medføre operationelle afbrydelser i højsæsonen for rejser på den nordlige halvkugle,« hedder det i en udtalelse fra organisationen The International Air Transport Association (IATA), der repræsenterer flere end 100 flyselskaber, som flyver til og fra USA. IATA anslår, at det koster 638 millioner dollar (4,3 milliarder kroner) at skifte det nødvendige udstyr ud. Pete Buttigieg opfordrer flyselskaberne til at sætte aggressivt ind for at komme i mål til tiden. De amerikansketeleselskaber har tidligere indvilget i at udsætte åbningen af dele af 5G-mobilnettenetil 1. juli for at hjælpe flyselskaberne. 5G-mobilnettene bruger frekvenser på det såkaldte C-spektrumbånd, som telegiganter som AT&T og Verizon Communications på en statslig auktion i 2021 betale 80 milliarder dollar (539 milliarder kroner) for brugsretten til. Disse frekvenser ligger tæt på dem, som anvendes af flyenes højdemålere, der måler afstanden til jorden og leverer oplysninger til flyets navigationsinstrumenter og andre sikkerhedssystemer ombord. Når problemerne med de nye mobilsignaler kun rammer i USA og ikke andre steder i verden, skyldes det, at man i USA har valgt at bruge radiofrekvenser, som ligger tæt på dem, som flybranchen anvender, til 5G, og at teleselskaberne samtidig har fået lov til at bruge kraftigere signalstyrke. Det øger risikoen for, at mobilsignaler og flysignaler forstyrrer hinanden på samme måde, som mange danske tv-seere med stueantenne eller ældre fjernsyn tilbage i 2012 risikerede at få sne på skærmen, da gamle tv-frekvenser blev taget i brug til det dengang nye 4G-mobilnet. Her måtte man enten investere i et særligt filter for at holde støjen nede eller købe et nyt tv, hvis man ville have klart billede på skærmen. 5G-signalerne ligger på frekvenserne 3,7-3,98 gigahertz, hvor flyenes højdemålere bruger frekvenser på 4,2-4,4 gigahertz.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/rejsekaos-i-usa-truer-til-sommer-hoejdemaalere-i-fly-forstyrres-af-5g",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/167/1672736/24418275-usa-aviationcommunication.jpg",
+            "publication_time": "Onsdag d. 03. maj 2023, kl. 08.45",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

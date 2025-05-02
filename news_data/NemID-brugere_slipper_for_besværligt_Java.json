@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/samfund/nemid-brugere-slipper-for-besvaerligt-java",
+        "title": "NemID-brugere slipper for besværligt Java",
+        "content": "NemID er torsdag begyndt at udskifte en del af brugerfladen på blandt andet hjemmesider såsom Skat og borger.dk. Det drejer sig om teknologien Java, der udskiftes med JavaScript, når man logger på med sit NemID-nøglekort. Det skriver Digitaliseringsstyrelsen.  »Når man fremover logger på en offentlig selvbetjeningsløsning, vil login-siden se lidt anderledes ud, end den har gjort hidtil,« skriver styrelsen. Med den nye JavaScript-software skal de cirka 4,3 millioner NemID-brugere ikke længere have Java installeret eller bekymre sig om opdateringer for at kunne logge ind på de offentlige hjemmesider. Borgere og virksomheder skal ikke foretage sig noget i forbindelse med ændringerne. BNB ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/samfund/nemid-brugere-slipper-for-besvaerligt-java",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/22/229840/7968114-vbcvbvc.jpg",
+            "publication_time": "Torsdag d. 27. november 2014, kl. 21.11",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

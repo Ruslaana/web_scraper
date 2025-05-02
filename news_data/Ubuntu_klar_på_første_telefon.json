@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/videnskab/ubuntu-klar-paa-foerste-telefon",
+        "title": "Ubuntu klar på første telefon",
+        "content": "Den første mobiltelefon med Linux-versionen Ubuntu som styresystem er op vej. Selskabet bag Ubuntu, Canonical, har underskrevet sin første aftale men vil dog endnu ikke fortælle med hvem. Sikkert er det dog, at Ubuntu-telefonen med Ubuntu Touch, som styresystemet hedder, kommer på hylderne i 2014. Det forklarer Canonicals stifter, den sydafrikanske mangemilliardær Mark Shuttleworth, som selv er dybt involveret i den fortsatte udvikling af Ubuntu, som efterhånden har fået det traditionelt lidt nørdede Linux-styresystem til at være lige så intuitivt og let at bruge som konkurrenterne Windows fra Microsoft og Mac OS fra Apple. Canonical har tilpasset Ubuntu, så det kan bruges på en mobiltelefon. En kamp venter Mark Shuttleworth siger til det amerikanske nyhedsnetsted CNet, at der er forhandlinger i gang med flere andre mobilproducenter. Ubuntu på mobiltelefon kommer dog til at konkurrere endog særdeles hårdt om at vinde indpas. I dag domineres smartphonemarkedet af telefoner med Googles styresystem Android, som nu ligger på 81 procent af alle nye smartphonetelefoner, mens Apples iOS ligger på under 13 procent. Windows Phone fra Microsoft har endnu kun en markedsandel på verdensplan på tre-fire procent. Dertil kommer Samsungs og Intels fælles Tizen-styresystem og Mozillas Firefox OS. Sidstnævnte, der ligesom både Android og Ubuntu, er forskellige tilpassede udgaver af Linux, har allerede aftaler på plads med en række mobilselskaber. Mark Shuttleworth er udmærket klar over, hvad han går ind til. »Volumen er vigtig. Vi ønsker at lave ting, som folk bruger hver dag,« siger han og understreger, at Ubuntu på mobiltelefoner ikke blot skal være et nichemarked. Første mål er udviklerne Altafgørende for succes er at vinde udviklernes hjerte. Der skal simpelt hen folk til at producere apps/småprogrammer, som er tilpasset det enkelte styresystem, hvis man vil have folk til at bruge styresystemet. Ubuntu Touch kan udnytte sin Linux-kerne, fordi en række apps/småprogrammer fra andre styresystemer med mindre kunstgreb kan bringes til at fungere på Ubuntu-telefoner. Ubuntu Touch har ydermere den fordel, at software hertil kan bruges på almindelige PCer med Ubuntu og fremadrettet på tavle-PCer og TV-apparater med Ubuntu. En række større teleselskaber, heriblandt britiske Vodafone, sydkoreas SK Telecom, amerikanske Verizon og tyske Deutsche Telekom, er klar til at sælge telefonerne, når de kommer.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/ubuntu-klar-paa-foerste-telefon",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/24/244064/7033117-pix-ubuntu-touch.jpg",
+            "publication_time": "Torsdag d. 12. december 2013, kl. 12.30",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

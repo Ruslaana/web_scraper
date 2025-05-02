@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": "https://www_berlingske_dk/videnskab/ie10-vil-ikke-understoette-flash",
+        "title": "IE10 vil ikke understøtte Flash",
+        "content": "Langsomt men jævnt dukker der mere og mere information op om Windows 8, og hvordan OS-et vil fungere på tavlecomputere. Nu viser det sig at, browseren som følger med Windows 8, Internet Explorer 10, vil komme i to versioner, hvor udgaven til tavlecomputeren ikke vil understøtte Flash. Grunden skal være at Microsoft vil lave en «ren» version af browseren, som er helt renset for plug-ins. Metro-versionen vil fortsat kunne åbne faner, navigere frit mellem fanerne, surfe på nettet og gøre alt det du er vant til, og vil være baseret på det moderne HTML5-net. Er du derimod ude efter en browser med større tilpasningsmuligheder vil du nemt kunne skifte over til den normale IE10-version, med et enkelt tastetryk. »Plug-in-oplevelsen vi finder i dag er ikke et godt match med Metro-surfingen og HTML5. Du kan dog selv vælge hvad der passer dig bedst, og skifte over til skrivebordsudgaven hvis du vil have Flash og andre plug-ins,« skriver Microsoft-ansatte Steven Sinofsky påMicrosofts egen blog. Websitet \"This Is My Next\" testede browseren, og kunne bekræfte at tavlecomputer-versionen af browseren ikke kunne afspille Flash-indhold, mens det gik som smurt når de skiftede over til den normale udgave af IE10.  Læs også:Kæmpe roser til Windows 8-tavle Læs artiklen på hardware.no Tilmeld dig Tech & Videns ugentlige nyhedsbrev - og få det hver torsdag!Artiklen er oversat af Alexander Almegaard.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/ie10-vil-ikke-understoette-flash",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/71/712443/4509374-ie-vil-ikke-understtte-flash.jpg",
+            "publication_time": "Mandag d. 19. september 2011, kl. 16.00",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}
