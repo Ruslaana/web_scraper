@@ -2,13 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 from models.news_model import NewsModel
 
-def scrape_news(url):
+def scrape_news(url, numeric_id):
     try:
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'lxml')
 
         title_tag = soup.find('h2', class_='article-header__title')
-        title = title_tag.get_text(strip=True) if title_tag else "untitled"
+        title = title_tag.get_text(strip=True) if title_tag else "Без заголовка"
 
         image_tag = soup.find('img', class_='article-top-media__image')
         image_url = image_tag['src'] if image_tag else None
@@ -24,6 +24,7 @@ def scrape_news(url):
         author = author_tag.get_text(strip=True) if author_tag else None
 
         return NewsModel(
+            numeric_id,
             source=url,
             title=title,
             content=content,
@@ -32,7 +33,6 @@ def scrape_news(url):
             author=author,
             related_links=[]
         )
-
     except requests.RequestException as e:
-        print(f"Error fetching the news page: {e}")
+        print(f"Error fetching news: {e}")
         return None

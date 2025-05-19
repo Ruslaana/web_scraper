@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 19343,
+        "title": "Poker - lektion 8",
+        "content": "Pot odds betyder, at det kan betale sig at calle et bud fra en modstander, selv om man endnu ikke har ramt sine kort og derfor ved, at man på nuværende tidspunkt ikke har den bedste hånd. Men der er puttet så mange penge i puljen, at det er det risikoen værd at calle. Ved at betale og gå med på modstaderens bet, er man faktisk procentmæssigt favorit. Det lyder lidt mærkeligt, at man er favorit, når man skal ud og ramme et kort i turn- eller riverkortet. Men man skal se det ud fra, hvor mange penge, der er i potten, samt hvad, der bliver budt. Her et par eksempler på, hvornår der kan opstå pot odds. Eksempel 1 Du spiller en turnering og sidder i big blind og blinds er 4.000-8.000 med en ante på 500. Ni spillere er med ved bordet, og du sidder med 120.000 i chips. Der er altså mindst 16.500 i puljen. En spiller går all in med 12.200 i chips, og du sidder med spar 5 spar 10. Alle omkring bordet har foldet sine kort. Så nu er I kun to tilbage. I den situation er der tale om pot odds. Uden at vide, hvad din modstander har, må du aldrig smide din hånd. Lad os regne på det værste scenario - at din modstander sidder med to esser. Det koster os 4.000 chips for at vinde i alt 32.700 chips. Det vil med andre ord sige, at du får over 8 gange din indsats igen, hvis du vinder. Og på eksemplet ovenfor, kan vi se, at du vinder 16 procent af gangene. De 4.000 chips, du skal smide i puljen, repræsenterer altså 12,5 procent af den samlede pulje, og du har altså 16 procent chance for at vinde. Pottens størrelse gør altså din hånd cirka 3,5 procent bedre. Derfor skal du betale de sidste 4.000. Eksempel 2 Du spiller turnering, har 4.000 tilbage i chips efter floppet og sidder med es og knægt i ruder på hånden. Blinds er 400-800. Small og big blind har foldet deres kort. Der er blevet raiset til 1.200 før floppet. Du sidder i sidste position. To andre spillere er med i potten. Det vil sige, at potten er 4.800 chips. Første spiller byder 4.000 chips, anden spiller caller de 4.000 chips. Nu er det så op til dig. Skal du smide de sidste chips i potten, eller skal du gemme dem? Lad os regne på det. I denne situation vil du have pot odds til at calle dine sidste chips. Du får over 4 gange pengene, og da du har 35 procent for at ramme en flush, har du gode pot odds. KUNSTEN ER ALTSÅ, at dine pot odds skal være mindre end dine odds, for at forbedre din hånd. Så kan det betale sig at calle. Så tænk grundigt over i hvilke situationer, du har pot odds, for der kan tjenes mange chips. Pokerskolen er lavet af  Martin Wendt, professionel pokerspiller, i samarbejde med Pokermagasinet Ace. ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/sport/poker-lektion-8",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large_vertical/image/75/750724/473158-poker---lektion--.jpg",
+            "publication_time": "Fredag d. 30. december 2005, kl. 21.45",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

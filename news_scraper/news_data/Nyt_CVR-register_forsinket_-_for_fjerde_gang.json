@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 13411,
+        "title": "Nyt CVR-register forsinket - for fjerde gang",
+        "content": "Erhvervsstyrelsen har siden 2011 arbejdet på et nyt CVR-register, da indberetningerne i det gamle blev lagret \"i en gammel og dårligt dokumenteret database,\" som heller ikke kører stabilt nok, skriverVersion2. Men processen har varet længere end først antaget - og nu bliver projektet forsinket for fjerde gang. Det er der ifølge Dan Lings, der er specialkonsulent og projektleder ved Erhvervsstyrelsen, dog ikke noget hokus pokus ved. »Problemet er såmænd meget lavpraktisk. Den løsning, vi har fået udviklet, performer simpelthen ikke godt nok endnu,« siger Dan Lings til Version2. Klog af skade vil han helst ikke love noget om, hvornår det nye register står klart, men der bliver dog arbejdet på sagen. Man ved blot ikke endnu, hvor fejlen ligger. »Vi sætter detaljerede målinger på for at finde ud af, hvor flaskehalsen ligger. Det kan for eksempel være kommunikationen med databasen eller internt i softwaren,« siger Dan Lings til Version2. Han forventer dog at få målingsresultaterne i løbet af et par uger, og midt i april skulle de gerne være skarpe nok til, at Erhvervsstyrelsen kan konkludere noget ud fra dem. CVR-registret rummer data om cirka to millioner danske virksomheder, hvilket i 2010 fyldte i alt cirka én gigabyte, ifølge udbudsmaterialet fra 2011. Den nuværende løsning bruger blandt andet forældet IBM MQ-software til integration med eksterne dataleverandører, mens dataudtræk-funktionen er kodet i PL/SQL. Deltag i debatten på Version2.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/nyt-cvr-register-forsinket-for-fjerde-gang",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/66/669942/6207237-cyberattack-miniduke.jpg",
+            "publication_time": "Fredag d. 15. marts 2013, kl. 11.21",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

@@ -1,5 +1,6 @@
 class NewsModel:
-    def __init__(self, source, title, content, publication_time, image_url, author, related_links):
+    def __init__(self, numeric_id, source, title, content, publication_time, image_url, author, related_links):
+        self.numeric_id = numeric_id
         self.source = source
         self.title = title
         self.content = content
@@ -12,7 +13,7 @@ class NewsModel:
         return {
             "version": "1.0",
             "document": {
-                "id": self.source.replace(".", "_"),
+                "id": self.numeric_id,
                 "title": self.title,
                 "content": self.content,
                 "metadata": {

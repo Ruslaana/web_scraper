@@ -12,12 +12,11 @@ response.raise_for_status()
 root = ET.fromstring(response.content)
 
 loc_urls = root.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+news_urls = [url.text for url in loc_urls]
 
-print(f"Number of news: {len(loc_urls)}")
+print(f"Знайдено новин: {len(news_urls)}")
 
-
-news_urls = [url.text for url in loc_urls] 
-
+counter = 1
 for news_url in news_urls:
     try:
         teaser_page = requests.get(news_url)
@@ -28,10 +27,11 @@ for news_url in news_urls:
             teaser_link = h4_tag.find('a', class_="teaser__title-link")
             if teaser_link and 'href' in teaser_link.attrs:
                 full_news_url = "https://www.berlingske.dk" + teaser_link['href']
-
-                news_data = scrape_news(full_news_url)
+                news_data = scrape_news(full_news_url, counter)
                 if news_data:
                     save_to_json(news_data, output_folder)
-
+                    counter += 1
+    except requests.RequestException as e:
+        print(f"❌ Error accessing teaser page: {e}")
     except requests.RequestException as e:
         print(f"❌ Error accessing teaser page: {e}")

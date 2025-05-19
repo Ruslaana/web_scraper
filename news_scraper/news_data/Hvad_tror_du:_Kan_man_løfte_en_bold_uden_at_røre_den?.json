@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 11719,
+        "title": "Hvad tror du: Kan man løfte en bold uden at røre den?",
+        "content": "Allerede i vores tidlige barndom lærer vi kroppen at interagere med objekter. Men når vi så skal bruge en computer, er vi nødt til at starte forfra. Vi bliver bedt om at glemme alt det, vi ved om fysiske handlinger, for at lære eksempelvis hvordan man flytter en fil til en anden mappe. Derfor har en gruppe ph.d.-studerende ved Massachusetts Institute of Technology skabt inFORM: En platform, der kan visualisere 3D-data. Platformen kan bedst beskrives som 'Tangible computing', der bedst oversættes til 'håndgribeligt IT'. Det handler om at gøre IT så brugervenligt og intuitivt som muligt - ved hjælp af fysiske objekter. Læs mere om inFORM på Videnskab.dk,hvor du også kan se en video om det fede projekt »Det vil vi gerne ændre og gøre det mere håndgribeligt, og derfor vil vi gerne have rigtige objekter, som folk kan interagere med, og som er koblet til digital information,« siger ph.d.-studerende Daniel Liethinger fra Massachusetts Institute of Technology i videoen, du kan se på Videnskab.dk. Læs også på Videnskab.dk:Ny robot skal forvandle tis til el inFORM består af 900 'stænger' med hver sin motor, der er tilkoblet en computer. Ved hjælp af billedrendering (en form for gengivelse) kan inFORM visualisere et sort-hvidt 2D-billede fra computeren til 3D på inFORM. »Det er ikke så forskelligt fra, hvordan du ville programmere et 3D-spil, eller hvilken som helst anden 3D-applikation,« forklarer Sean Follmer i videoen. Læs også på Videnskab.dk:Robotarm finder liv 11.000 meter nede Udover at inFORM kan visualisere computerdata, kan stængerne også styres fra en Microsoft Kinect, der kan afspejle ens position i en 3D-verden. I videoen ser vi eksempelvis, at det er muligt at samle en bold op takket være Kinect og inFORM. Læs også på Videnskab.dk:Robotteknologi: Nyt samlesæt gør det nemt at bygge gående robotter Et andet projekt fra MIT er jamSheet, der fokuserer på ændringen af densitet i et materiale. Ved brug af sammenvævet papir, en trykluftspumpe og en række sensorer har de skabt en skærm, der skifter hårdhed. Når man trykker på skærmen, øger man friktionen mellem lagene, og derfor stivner formen. »Vi mærker, hvordan den bliver placeret, eller hvordan man holder den, og så fortæller vi pumpen, at den skal pumpe luft ud på et specifikt tidspunkt,« fortæller ph.d.-studerende Lining Yao. Forskningen blev skaleret op til at dække et langt stykke jamSheet, der kunne bruges som møbel, og til at involvere en sko der tilpasser sig, alt efter om man løber eller går.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/hvad-tror-du-kan-man-loefte-en-bold-uden-at-roere-den",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/82/828705/7511317-bm-kinect.jpg",
+            "publication_time": "Onsdag d. 16. juli 2014, kl. 15.34",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

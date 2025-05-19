@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 1412,
+        "title": "TikTok lover fuld adgang til alle hemmelighederne",
+        "content": "Den stormomsuste kinesiske videoapp TikTok lover nu »snart« at give den amerikanske it-gigant Oracle, på hvis servere TikTok lige nu kører, fuld adgang til al programmeringskode. Det sker i et forsøg på at være så åben som overhovedet mulig i den standende debat om, hvorvidt TikTok indsamler brugerdata og videregiver dem til de kinesiske myndigheder. Det skriver det amerikanske nyhedsbureau Bloomberg. Oracle har i en tid lejet serverkapacitet ud til TikTok, som er det hurtigstvoksende sociale medie med en stor appel til især unge gennem sin satsning på korte, hurtige videoklip. »Project Texas« hedder TikToks plan, der skalforsøge at sikre, at amerikanske brugeres data ikke kan forlade USA. Det skal ske ved at give Oracle og andre partnere mulighed for at gennemse både selve programmeringskoden, de matematiske algoritmer, der styrer, hvad man ser af andres indhold, når man er logget ind, og materialer om, hvordan TikTok fører opsyn med det indhold, som brugerne lægger ud. Den amerikanske delstat Montanas parlament vedtog tidligere på ugen en lov medet udbredt forbud mod TikTokfra 1. januar 2024.TikTok, der ejes af den kinesiske mediekoncern Bytedance, har svaret igen ved at lægge sag an mod Montana. I en lang række landehar myndighederne forbudt eller frarådet, at man installerer TikTok-appen på sin arbejdstelefon og sin arbejdscomputer. TikTok er berygtet for sin massive indsamling af brugerdata, og frygten går på, at en kinesisk lovændring for et par år siden pålægger alle kinesiske virksomheder at samarbejde med Kinas styre og yde støtte, såfremt det kræves. Det er samme lovændring, som harudløst de omfattende sanktioner mod de to kinesiske mobilgiganter Huaweiog ZTE. »Mange af de større komponenter i Projekt Texas er allerede i drift, og vi vil fortsætte med at føje flere dele til initiativet online i de kommende uger og måneder,« oplyser TikTok. Oracle er gået i gang med at gennemgå dele af TikToks såkaldte kildekode, altså grundprogrammeringen af systemet, men har endnu ikke bred adgang til alle data og al kodning, fremgår det. »Både TikTok og Oracle fortsætter med at arbejde hen mod en løsning med den amerikanske regering,« lyder det fra TikTok. Oracle fik opgaven med at lægge serverkapacitet til TikTok, efter at den daværende amerikanske regering under præsident Donald Trump højlydt talte om at forbyde TikTok på amerikansk grund. ByteDance og TikTok gik derefter i intense forhandlinger med de amerikanske myndigheder om at finde en løsning, der kunne medføre, at TikTok blev splittet op, så en amerikansk del kunne fungere helt uafhængigt af resten. ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/tiktok-lover-fuld-adgang-til-alle-hemmelighederne",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/167/1679276/24436091-pix-tiktok.jpg",
+            "publication_time": "Tirsdag d. 23. maj 2023, kl. 09.00",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}
