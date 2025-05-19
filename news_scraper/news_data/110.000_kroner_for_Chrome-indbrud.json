@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 15990,
+        "title": "110.000 kroner for Chrome-indbrud",
+        "content": "Google tilbyder nu 20.000 amerikanske dollar, omkring 110.000 danske kroner, som belønning til hackere, som kan knækkeCr-48 Chrome Notebook, det vil sige computeren, som Google har leveret til interesserede for at kunne teste Chrome OS. Pwn2Own er en konkurrence, hvor hackere prøver at lave et indbrud via sikkerhedshullet i diverse software, specielt webrelateret software. Konkurrencen arrangeres i forbindelse med den årligeCanSecWest-konference. Forudsætningen er, at forsøget bliver gjort via en sårbarhed i Chrome-browseren, det vil sige, at vedkommende formår at undvige sandbox-teknologien, som bruges i Chrome. Tilbudet er en del af Pwn2Own-konkurrencen, hvor flere sikkerhedsforskere deltager. Google Chrome har i tidligere konkurrencer vist sig at være en browser, som ikke lader sig knække let, men i år tilbydes der en større præmie. Læs også:Verdens sikreste browser? Der tilbydes også præmier for vellykkede indbrud i Windows og Mac og de andre browsere såsom Internet Explorer, Safari og Firefox. Læs også:Chrome OS præsenteretLæs også:Test: Chrome 8.0 Denne artikel stammer fra Berlingske Media's norske søster-site,Hardware.noOversat af Stina Resting",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/110.000-kroner-for-chrome-indbrud",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/33/336336/3751754-google.jpg",
+            "publication_time": "Fredag d. 04. februar 2011, kl. 17.00",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 6164,
+        "title": "Ny, skrap overvågning af kritiske tjenester til finansverdenen",
+        "content": "Den britiske nationalbank og landets finansmyndigheder vil fra 1. januar holde ekstra skarpt øje med de teknologiselskaber som Google og Amazon, der leverer kritiske tjenester, som kan bringe landets finansielle stabiliteti fare ved nedbrudeller hackerangreb. Ny lovgivning træder ved årsskiftet i kraft og giver nationalbanken og finansmyndigheden nye beføjelser til at gribe ind i forhold til at sikre alt det, der får bank- og finansverdenen og dermedhele samfundet til at fungere, efterhånden som mere og mere foregår digitalt. Kontrollen vil gælde virksomheder, der sælger internetbaseret datalagring, kunstig intelligens og automatiserede programmer, som hjælper med at afsløre svindel, skriver det britiske dagblad The Guardian. Den skrappere overvågning indbefatter lovpligtig indrapportering af større nedbrud og hændelser samt koordineret planlægning af nødberedskaber og skal hjælpe med at undgå udfald, hvor alt går i sort. I målgruppen er Amazon Web Services, som er leverandør til store banker som HSBC, Starling Bank, Nationwide og Mozo, samt Google, der har Revolut, NatWest, GoCardless og Atom Bank på kundelisten. Også Microsoft er med, fordi Investec, Virgin Money og Standard Chartered her er blandt kunderne. Den britiske regering skal til juni godkende listen over teknologiselskaber, der er omfattet af den nye kontrol. Loven kræver, at leverandørerne skal gennemgå en stresstest, hvor det kontrolleres, hvordan de handler i nødstilfælde, som lægger pres på deres tjenester. Samtidig skal større hændelser som cyberangreb, strømudfald og påvirkninger fra naturkatastrofer indberettes til Bank of England og Financial Conduct Authority.  ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/ny-skrap-overvaagning-af-kritiske-tjenester-til-finansverdenen",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large_vertical/image/187/1873616/24861114-den-britiske-finansmyndighed-financial-conduct-au.jpg",
+            "publication_time": "Mandag d. 30. december 2024, kl. 15.16",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

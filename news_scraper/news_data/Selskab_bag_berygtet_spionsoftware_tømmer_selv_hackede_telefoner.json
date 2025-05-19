@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 13577,
+        "title": "Selskab bag berygtet spionsoftware tømmer selv hackede telefoner",
+        "content": "Det er selskabet bag den berygtede spionsoftware Pegasus, der selv henter data fra hackede telefoner, og ikke de myndigheder, der har købt sig adgang til at bruge den. Det fremgår af retsdokumenter i den igangværende sag mellem israelske NSO Group, som står bag Pegasus, og det Facebook-ejede WhatsApp, skriver The Guardian. Det er første gang, at det kommer frem. NSO er den, der »installerer og udtrækker« oplysning fra mobiltelefoner, som Pegasus-softwaren har skaffet sig adgang til. NSO har altid oplyst, at Pegasus er lavet for at forhindre alvorlig kriminalitet og terrorisme, og at kunderne er forpligtede til ikke at misbruge spionsoftwaren. Samtidig har NSO holdt fast i, at det ikke ved, hvem Pegasus anvendes mod. NSO blev i november 2021 sat på USAs sorte listeaf præsident Joe Bidens regering. Pegasus anses for at være noget af verdens mest avancerede spionsoftware. Den er blevet brugt i lande som Saudi-Arabien, De Forenede Arabiske Emirater, Indien, Mexico, Marokko og Rwanda. WhatsApp lagde i 2019 sag an i USA, efter at det blev afsløret, at 1.400 WhatsApp-brugere – heriblandt journalister og menneskerettighedsforkæmpere – over to uger havde været mål for softwaren. I efteråret 2023 opdagede forskere fra University of Torontos Citizen Lab, der holder øje med den digitale retssikkerhed,Pegasus, da de undersøgte en Apple-telefon, som blev brugt af en borgerrettighedsgruppe i Washington i USA. iPhonen var udstyret med den dengang nyeste udgave af Apples iOS-software, hvilket fik Apple til kort efter at sende en opdatering af iOS ud for at få lukket sikkerhedshullet. Pegasus-programmet udnytter opdagede sikkerhedshuller i mobilstyresystemerne iOS fra Apple og Android fra Google samt i computersoftware som Microsofts Windows og gør det gennem en tilgængelig brugerflade muligt for spionsoftwarens brugere atudnytte hullerne til at slippe ubemærket indog herefter kunne foretage omfattende overvågning af de ramte telefoner og computere. Også Apple har lagt sag an mod NSO for at have hacket sig ind på iPhones, og en rapport fra Europa-Parlamentet kortlagde i november 2022, atPegasus-softwaren er blevet solgt til 14 EU-lande. Ungarn, Polen, Spanien og Grækenland er alle blevet beskyldt for at anvende Pegasus-programmet mod borgere og politikere.  ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/selskab-bag-berygtet-spionsoftware-toemmer-selv-hackede-telefoner",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large_vertical/image/185/1858568/24833952-den-israelske-udvikler-af-spionsoftwaren-pegasus.jpg",
+            "publication_time": "Fredag d. 15. november 2024, kl. 15.36",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

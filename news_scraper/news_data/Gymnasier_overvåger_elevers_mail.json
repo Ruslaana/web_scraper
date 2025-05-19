@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 17647,
+        "title": "Gymnasier overvåger elevers mail",
+        "content": "Elever og medarbejdere på seks sjællandske gymnasier bliver overvåget, når de bruger skolernes computere og sendes mail. Gymnasierne har ifølge Computerworld fået Datatilsynets godkendelse til at logge e-post og internetforbrug. Det drejer sig om Solrød Gymnasium, Køge Gymnasium, Greve Gymnasium, Himmelev Gymnasium, Roskilde Katedralskole og Roskilde Gymnasium, der har indsendt enslydende begrundelser for deres ønske om at kontrollere it-trafikken. Blandt andet vil de sikre, at deres computere ikke misbruges, ligesom de vil have mulighed for at »skaffe sig adgang til medarbejderes og elevers personlige drev m.v. i forbindelse med længerevarende sygdom, uansøgt afsked eller bortvisning«. Endelig vil gymnasierne ifølge Computerworld »sikre, at internettet anvendes til lovlige formål«.  De seks gymnasier har fælles it-platform, men sekretariatschef Camilla Schaldemose oplyser, at tre af gymnasierne ikke har udstyr til at logge oplysninger om computertrafik og mail-brug. »På de øvrige tre gymnasier (Solrød Gymnasium, Himmelev Gymnasium og Køge Gymnasium) er der installeret hardware, der logger internettrafikken (en såkaldt Palo Alto Firewall), hvor undervisningsnettet overvåges,« skriver hun i en mail til Computerworld. Endnu har gymnasierne ikke udnyttet muligheden for at kontrollere hverken elever eller ansatte. »De loggede oplysninger er ikke blevet anvendt, da der konkret ikke har været behov for det,« skriver sekretariatschefen. Gymnasierne sletter oplysningerne efter seks måneder.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/samfund/gymnasier-overvaager-elevers-mail",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/54/541878/6755368-folkeskolens-computere-mangler-pornofiltre.jpg",
+            "publication_time": "Tirsdag d. 27. august 2013, kl. 08.47",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

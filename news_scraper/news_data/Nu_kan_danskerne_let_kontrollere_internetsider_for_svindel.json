@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 3090,
+        "title": "Nu kan danskerne let kontrollere internetsider for svindel",
+        "content": "Det bliver nu lettere at kontrollere, om en side på nettet kan være svindel. Bestyreren afalle danske internetadresser,Punktum.dk (som tidligere hed DK Hostmaster), har nemlig lanceret adressen tjekpånettet.dk. Her kan man taste enhver internetadresse ind, hvorefter den bliver kontrolleret op mod en række registre og registreringer, så man hurtigt får et svar på, om et netsted er troværdigt eller måske forsøger at begå phishing – altså er en falsk kopi af en ægte udseende side – eller andre former for svindel. Under kontrollen bliver netadressen også undersøgt for malware, altså ondsindede hackerprogrammer, som installeres i det skjulte, når man besøger siden. Tjekpånettet.dk supplerer Sikkerpånettet.dk, som blev lanceret i 2020, men er målrettet internetbrugere, som ikke har en it-afdeling, der kan klare sikkerheden for dem. »Formålet med Tjekpånettet.dk er at oplyse, uddanne og hjælpe folk til at kunne hjælpe sig selv med at undgå at blive udsat for svindel på nettet,« forklarer Jakob Truelsen, der er administrerende direktør for Punktum.dk. Syv ud af ti danskerehar oplevet svindel på nettet, og det bliversværere og sværere at gennemskuesvindelsider, som typisk forsøger at aflure den besøgende adgangsnavne, kodeord og kontonumre. Omkring hver sjette anmeldelse af kriminalitet i Danmark handler om internetsvindel. »Tjekpånettet.dk kan være en god hjælp, hvis man er i tvivl, om et link er mistænkeligt eller ej, eller hvis man vil advare andre gennem muligheden for at indrapportere mistænkelige links. Jeg tror, at løsningen kan være et værktøj, som kan understøtte muligheden for øget sikkerhed, når man er på nettet – og forhåbentlig gøre det lidt mindre attraktivt for svindlerne at kigge til Danmark,« siger Ulla Malling fra Forbrugerrådet Tænk. Tjekpånettet.dk er blevet til i et samarbejde mellem Punktum.dk og DI Digital, Ebrand, Dansk Erhverv, IT-Branchen, DK-Cert, Rådet for Digital Sikkerhed, Rettighedsalliancen, Cybercue, Finans Danmark, Danske Advokater, E-mærket, Dansk IT, Brandit, TF-Csirt, SMVdanmark, PwC og Forbrugerrådet Tænk.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/nu-kan-danskerne-let-kontrollere-internetsider-for-svindel",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/170/1705848/24502560-pix-tjekpnettet.jpg",
+            "publication_time": "Fredag d. 18. august 2023, kl. 14.25",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

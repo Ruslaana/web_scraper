@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 14328,
+        "title": "Tusinder kræver erstatning for iPhone-sporing i Sydkorea",
+        "content": "Det ser ud til at den omstridte lagring af positionsdata kan blive meget dyr for Apple. I juni blev Apple dømt til at betale en erstatning på 4.000 kroner til en sydkoreansk advokat for lagring af hans data uden tilladelse. Nu vil den samme advokat – Kim Hyeong-seok – føre en sag på vejne af 27.612 personer i Sydkorea.Det skriver ComON. Kim Hyeong-seok fortalte onsdag, at sagsøgerne hver forlanger en erstatning på omkring 4.800 kroner fra Apple. Hvis Apple bliver dømt til at betale erstatning i denne størrelse, kommer det til at koste koncernen mere end 130 millioner kroner. Tidligere i denne måned blev Apple idømt en symbolsk bøde på 15.000 kroner af det sydkoreanske telestyrelse. Det var den første bøde fra en statslig myndighed i sagen om positionsdata. SomComON kunne fortælle sidste år,har Apple brugt sine iPhones som en slags mobile Wi-Fi-scannere, der samler informationer om trådløse netværk i nærheden og sender disse data tilbage til Apple. På dén måde kan Apple opbygge en gigantisk database over Wi-Fi adgangspunkter, der kan bruges til at give mere præcis lokalisering af brugerne. Denne afsløring fulgte i kølvandet på Street View-sagen, hvor Google måtte erkende at fotobilerne også havde samlet data fra trådløse netværk. Nu viste det sig, at iPhone-brugerne havde gjort akkurat det samme – uden at vide det. Den gamle sag forfølger stadig Google – senest er det kommet frem, at bilerne også har registreret data om klienterne i de trådløse netværk. Det er også blevet afsløret, at de indsamlede data har været offentligt tilgængelige. Apple kan heller ikke slippe fri af sagen. I påsken kom det frem at iOS-enheder gemmer oplysninger om hvor du har været i en fil, consolidated.db, der ligger gemt på den lokale enhed. Denne fil indeholder en liste med koordinater og tidspunkter som kan bruges til at spore din færden i det sidste år. Siden sidste år har det altså været kendt, at Apple samler oplysninger om hvor iPhone-ejere har befundet sig. Men det er nyt, at disse oplysninger også ligger på den lokale enhed og bliver gemt i et år. Det samme gælder for Android, dog i mindre omfang. De sydkoreanske myndigheder har angiveligt fundet huller i iOS og Android som betyder at fremmede kan gå adgang til de gemte positionsdata. Både Google og Apple bliver opfordret til at kryptere informationerne – Apple fortæller dog, at man allerede har lukket hullet med en opdatering.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/tusinder-kraever-erstatning-for-iphone-sporing-i-sydkorea",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/40/409100/4402412-appleiphone.jpg",
+            "publication_time": "Onsdag d. 17. august 2011, kl. 10.20",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

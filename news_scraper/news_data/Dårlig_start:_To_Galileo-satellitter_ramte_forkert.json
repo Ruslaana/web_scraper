@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 10963,
+        "title": "Dårlig start: To Galileo-satellitter ramte forkert",
+        "content": "Starten for den europæiske konkurrent til det amerikanske GPS-navigationssystem, Galileo, kunne næppe have været værre. De to første egentlige satellitter, som i weekenden blev skudt op, er nemlig endt i et forkert kredsløb om Jorden. Efter nogen forsinkelse blev de to satellitter lørdag dansk tid sendt op fra raketbasen Kourou i Fransk Guyana med en russisk Soyuz-raket. De er nummer fem og seks i et helt net af europæiske satellitter, som allerede fra næste år så småt skulle tages i brug og med tiden vil være på 30 satellitter i alt, som skal levere langt nøjagtigere navigation, end det amerikanske GPS-system kan klare.  Undersøgelser er i gang Men satellitterne kom ind i et lavere, elliptisk kredsløb i stedet for at ramme det cirkulære kredsløb, som de var tiltænkt. Både det europæiske rumagentur ESA og selskabet Arianespace, som stod for opsendelsen, er i gang med at undersøge, hvad der gik galt. »Det er for tidligt at afgøre, hvad de præcise årsager er, og vi giver vor uforbeholdne undskyldning til ESA og EU-Kommissionen,« siger Stephane Israel, Arianespaces topchef.  De 30 satellitter i Galileo-nettet skal efter planen være fuldt funktionsduelige i 2020. De første to blev sendt op i 2011, to andre fulgte i 2012, men de to seneste er de første, som direkte skal bruges af de fremtidige Galileo-brugere. Galileo har været undervejs i mere end ti år og er undervejs blevet betragteligt dyrere end planlagt. EU-Kommissionen, som ser Galileo som et europæisk modtræk til det amerikanskdominerede GPS-system, besluttede at skyde de ekstra penge i at få Galileo op at køre. Må erstattes, hvis det mislykkes Hvis det ikke lykkes at få de to satellitter tilbage i det rette kredsløb, er man nødt til at sende to nye satellitter op. Signalerne fra Galileo vil være langt sværere at forstyrre end dem, som det amerikanske GPS-system anvender. Desuden vil Galileo-satellitterne have en krypteret kanal, som myndighederne kan bruge, fordi sikkerheden er i højsædet. Et særligt nødsystem til eftersøgninger og redningsaktioner er også en del af Galileo, så man på få sekunder vil kunne lokalisere f.eks. rejsende, sejlende og piloter, der sender signal om hjælp. Det kan i dag godt vare op mod tre kvarter med de nuværende systemer.  Hvor GPS-systemet kun kan udpege positionen med nogle meters nøjagtighed, skal Galileo kunne nå en nøjagtighed inden for en meter. GPS står for »Global Positioning System«.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/daarlig-start-to-galileo-satellitter-ramte-forkert",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/12/129417/7597187-pix-galileo.jpg",
+            "publication_time": "Mandag d. 25. august 2014, kl. 09.20",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

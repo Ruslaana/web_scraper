@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 17232,
+        "title": "Snart kan Android-applikationer køre i MeeGo",
+        "content": "Det praktiske når det kommer til Android og iOS, er at udviklere kan lave applikationer som kan bruges på mange forskellige enheder. Nu har sweitziske Myriad Group varslet software som kan køre Android-applikationer på telefoner med andre operativsystemer end Android. Alien Dalvik, som programmet hedder skal i første omgang gøres tilgængeligt i MeeGo, men flere platforme skal understøttes i løbet af året. Alien Dalvik skal efter sigende vises frem på Mobile World Congress i Barcelona i næste uge, på en Nokia N900. I følge Myriad Group skal det være muligt at køre de fleste Android-applikationer uden nogen form for modificering. Programpakkerne skal dog stadig pakkes om, og gøres tilgængelige for andre brugere end Android-ejerne. Den virtuelle Java-maskine skal kunne køre de fleste Android-applikationer. Store grafikkrævende 3D-spil vil muligvis ikke kunne køre på løsningen, eftersom dele af disse er skrevet på en anden måde end andre apps. For brugeren skal programmet være nærmest usynligt og det er mulig at installere applikationerne direkte på telefonen, uden at skulle åbne Alien Dalvik først. Dette vil gøre overgangen mellem Android-applikationer og andet indhold, problemfri. Alien Dalvik skal sandsynligvis ikke distribueres direkte til brugerne, men gennem mobilleverandører, operatører og ejere af markedspladser som sælger applikationer til de aktuelle platforme. Læs også:Næste Android-version kommer til aprilLæs også:Kraftig indmad på Nokia N9 Denne artikel stammer fra Berlingske Medias norske søster-siteamobil.noOversat af Alexander Almegaard",
+        "metadata": {
+            "source": "https://www.berlingske.dk/videnskab/snart-kan-android-applikationer-koere-i-meego",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/44/447942/3792293-snart-kan-android-applikationer-kre-i-meego.jpg",
+            "publication_time": "Onsdag d. 09. februar 2011, kl. 12.00",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

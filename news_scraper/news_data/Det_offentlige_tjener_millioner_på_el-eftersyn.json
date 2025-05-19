@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 16086,
+        "title": "Det offentlige tjener millioner på el-eftersyn",
+        "content": " Hvis du vil sælge dit hus og have dit på det tørre, skal en elinstallatør først forbi og tjekke, at installationerne i hytten er i orden. Det skriverVersion2.dk Sådan har loven krævet siden 1. maj i år, og derfor har Sikkerhedsstyrelsen købt EEweb, som installatørerne kan bruge til at melde resultatet af det såkaldte el-eftersyn ind på stedet fra deres egen bærbare pc. Selvbetjeningsløsningen er udviklet af webbureauet Dwarf, som hævder, at den tjener sig ind på 80 dage. Da skønnes installatørerne, som modtager et gebyr fra husejeren, at have tjekket cirka 24.000 husstande i hele landet. »Hver gang en elinstallatør har lavet et eftersyn, betaler han 77 kroner til Sikkerhedsstyrelsen. Ganger man det med 24.000, bliver det 1,8 millioner kroner. Det dækker så rigeligt omkostningerne til udviklingen af hele løsningen fra A til Z,« siger chef for forretningsudvikling i Dwarf, Magnus Barsøe Bennetzen, til Version2. .EEweb er baseret på open source-CMS'et Drupal 7 og har taget omkring 10 måneder at udvikle. Løsningen var færdig og klar til brug inden deadline 1. maj. Ifølge Magnus Barsøe Bennetzen er projektet et eksempel på, at kunderne i det offentlige er blevet mere opmærksomme på open source-løsninger. »Vi mærker, at især kommunerne bliver mere varsomme med at smide penge efter store, licensbetalte it-systemer. Og det er Drupal et meget godt svar på, fordi det er licensfrit og har vist sit værd på store sites i hele verden. Dermed har vi heller ikke skullet udviklet en ny løsning fra bunden af,« siger han til Version2. Drupal fungerer som content management-system for store hjemmesider både herhjemme og i udlandet. I Danmark bruger blandt andet Berlingske Media open source-CMS'et. Ordningen om eleftersyn ved hushandel er i princippet frivillig, men eftersynet er påkrævet, hvis man vil fraskrive sig ansvaret for eventuelt ulovligt elarbejde i sit hus. Det er ikke lykkedes at indhente en kommentar fra Sikkerhedsstyrelsen. ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/privatoekonomi/det-offentlige-tjener-millioner-paa-el-eftersyn",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/47/478445/5426222-eeweb_business1.jpg",
+            "publication_time": "Lørdag d. 04. august 2012, kl. 14.32",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

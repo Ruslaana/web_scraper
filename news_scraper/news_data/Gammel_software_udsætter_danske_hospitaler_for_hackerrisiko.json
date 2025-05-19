@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 8521,
+        "title": "Gammel software udsætter danske hospitaler for hackerrisiko",
+        "content": "Omkring 1.000 computere på hospitalerne i hovedstadsområdet kører stadig på en Windows-udgave, som Microsoft ikke har opdateret med sikkerhedsrettelser i over to år, og er dermed potentielle hackermål. Det skriver P4 København, som har fået aktindsigt i tallene fra Region Hovedstaden. I alt anvender 985 PCer fortsat Windows XP, som Microsoft ophørte med at opdatere i foråret 2014, sådan som det altid sker, når nyere versioner af computerstyresystemer har været på markedet i en tid. Region Hovedstaden oplyser til P4 København, at visse af regionens computerprogrammer ikke fungerer på de nyere udgaver af Windows, fordi de bruges til ældre, medicinsk udstyr. Ifølge regionen er en stor del af computerne beskyttet af regionens eget sikkerhedssystem. Alligevel er flere eksperter bekymret for, at hackere kan udnytte kendte sikkerhedshuller og på den måde trænge ind i systemerne udefra og læse patientdata eller fjernstyre PCerne til at bevæge sig dybere ind i Region Hovedstadens IT-systemer. Også i Storbritannien holdes den forældede Windows-udgave i live. Ni ud af ti hospitaler har stadig PCer kørende med den 15 år gamle software,skriver netnyhedsstedet ZDnet. Også her er der tale om et mindre antal PCer af den samlede computermængde. Et hospital har således Windows XP på 50 ud af 5.000 PCer. 29 procent af hospitalerne forventer at have trukket stikket til Windows XP og opgradere til en nyere Windows-udgave i løbet af 2017. National Health Service (NHS), som driver hospitalerne, har betalt Microsoft 5,5 millioner pund til Microsoft for særopdateringer af Windows XP frem til 2015. Også Storbritanniens fire atomubåde - HMS Vanguard, Victorious, Vigilant og Vengeance - kører stadig med Windows XP, som man installerede i 2008, fordi det var »billigere end alternativerne«. Dermed sparede Storbritannien 22 millioner dollars. Hver undervandsbåd har op til otte Trident II-missiler og 40 atomare sprænghoveder om bord,skriver Windows Report. Den amerikanske flåde, som også stadig bruger Windows XP men skifter det ud i 2017, har betalt Microsoft 31 millioner dollars for udvidet support til Windows XP frem til juli 2017.",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/gammel-software-udsaetter-danske-hospitaler-for-hackerrisiko",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/7/75822/15909803-pix-windows-xp.jpg",
+            "publication_time": "Torsdag d. 29. december 2016, kl. 08.15",
+            "author": "Thomas Breinstrup",
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}

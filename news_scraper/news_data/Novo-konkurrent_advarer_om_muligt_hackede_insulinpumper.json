@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "document": {
+        "id": 13324,
+        "title": "Novo-konkurrent advarer om muligt hackede insulinpumper",
+        "content": "Det amerikanske konglomerat Johnson & Johnson advarer mere end 100.000 diabetespatienter mod en fejl i selskabets insulinpumper, der opererer gennem et kommunikationssystem med radiofrekvens. Fejlen gør, at hackere kan skabe sig uautoriseret kontrol over produktets funktion. Det skriverFinancial Times. I et brev, der er sendt ud til de i alt 114.000 brugere af pumpen \"onetouch ping\", fortæller Johnson &amp; Johnson, at risikoen for hackerangreb er til stede, men at den er \"ekstremt lav\". Sagen er den første, hvor en producent af medicinal-hjælpemidler offentligt melder om et problem med cybersikkerheden omkring et produkt. Med indførelsen af det såkaldt \"internet of things\", hvor ting er forbundet til internettet, kan der dog ventes mange lignende sager fremover.  - Det vigtige er, at denne sag er en forsmag på, hvad der kommer fremadrettet med hjælpemidler, som er forbundet med telefoner og cloud-computersystemer, siger Jay Radcliffe, der er sikkerhedsforsker hos Rapid7, til Financial Times. John & Johnson melder, at der siden produktets indførelse i 2008 ingen klager har været omkring sikkerheden, og man skal da også have en vis teknisk ekspertise og være inden for få meters afstand af produktet, før det kan hackes. ",
+        "metadata": {
+            "source": "https://www.berlingske.dk/virksomheder/novo-konkurrent-advarer-om-muligt-hackede-insulinpumper",
+            "image_url": "https://berlingske.bmcdn.dk/media/cache/resolve/image_x_large/image/19/199187/14989026-billede.jpg",
+            "publication_time": "Onsdag d. 05. oktober 2016, kl. 09.48",
+            "author": null,
+            "related_links": [],
+            "attachments": []
+        }
+    }
+}
