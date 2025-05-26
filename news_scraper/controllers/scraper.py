@@ -1,8 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 from models.news_model import NewsModel
+import logging
 
-def scrape_news(url, numeric_id):
+logger = logging.getLogger(__name__)
+
+def scrape_news(url):
     try:
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'lxml')
@@ -13,14 +16,14 @@ def scrape_news(url, numeric_id):
         pub_time_tag = soup.find('div', class_="article-byline__date")
         author_tag = soup.find('p', class_="article-byline__author-name")
 
-        title = title_tag.get_text(strip=True) if title_tag else "Без заголовка"
+        title = title_tag.get_text(strip=True) if title_tag else ""
         image_url = image_tag['src'] if image_tag else None
         content = ' '.join(p.get_text(strip=True) for p in content_tag.find_all('p')) if content_tag else ""
         pub_time = pub_time_tag.get_text(strip=True) if pub_time_tag else None
-        author = author_tag.get_text(strip=True) if author_tag else None
+        author = author_tag.get_text(strip=True) if author_tag else url
 
+        logger.info(f"📰 {title[:60]}... ({len(content)} символів)")
         return NewsModel(
-            numeric_id=numeric_id,
             source=url,
             title=title,
             content=content,
@@ -31,5 +34,5 @@ def scrape_news(url, numeric_id):
         )
 
     except Exception as e:
-        print(f"❌ Error while scraping: {e}")
+        logger.error(f"❌ scrape_news помилка: {e}")
         return None

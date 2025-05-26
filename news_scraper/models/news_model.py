@@ -1,6 +1,5 @@
 class NewsModel:
-    def __init__(self, numeric_id, source, title, content, publication_time, image_url, author, related_links):
-        self.numeric_id = numeric_id
+    def __init__(self, source, title, content, publication_time, image_url, author, related_links):
         self.source = source
         self.title = title
         self.content = content
@@ -9,11 +8,11 @@ class NewsModel:
         self.author = author
         self.related_links = related_links
 
-    def to_dict(self):
+    def to_dict(self, news_id):
         return {
             "version": "1.0",
             "document": {
-                "id": self.numeric_id,
+                "id": news_id,
                 "title": self.title,
                 "content": self.content,
                 "metadata": {

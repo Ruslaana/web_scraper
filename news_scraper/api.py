@@ -1,7 +1,7 @@
 import os
 import json
-import boto3
 import random
+import boto3
 from fastapi import FastAPI
 from dotenv import load_dotenv
 from botocore.exceptions import ClientError
@@ -22,20 +22,23 @@ s3 = boto3.client(
     region_name=AWS_REGION
 )
 
+def load_all_news_keys():
+    """Отримує список ключів файлів новин з S3"""
+    try:
+        response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
+        return response.get("Contents", [])
+    except Exception:
+        return []
 
 @app.get("/latest")
 def get_latest_news():
     try:
-        response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
-        items = response.get("Contents", [])
-
+        items = load_all_news_keys()
         if not items:
             return {"error": "❌ Немає новин в архіві"}
 
         latest = max(items, key=lambda x: x["LastModified"])
-        key = latest["Key"]
-
-        obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=key)
+        obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=latest["Key"])
         return json.loads(obj["Body"].read().decode("utf-8"))
 
     except ClientError as ce:
@@ -43,18 +46,15 @@ def get_latest_news():
     except Exception as e:
         return {"error": f"❌ Сталася помилка: {str(e)}"}
 
-
 @app.get("/random")
 def get_random_news():
     try:
-        response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
-        items = response.get("Contents", [])
-
+        items = load_all_news_keys()
         if not items:
-            return {"error": "❌ Архів новин порожній"}
+            return {"fallback": True, "message": "📭 Тимчасово не знайдено новин. Спробуйте пізніше."}
 
-        key = random.choice(items)["Key"]
-        obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=key)
+        random_key = random.choice(items)["Key"]
+        obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=random_key)
         return json.loads(obj["Body"].read().decode("utf-8"))
 
     except Exception as e:
