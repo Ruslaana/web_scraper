@@ -23,7 +23,6 @@ s3 = boto3.client(
 )
 
 def load_all_news_keys():
-    """Отримує список ключів файлів новин з S3"""
     try:
         response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
         return response.get("Contents", [])

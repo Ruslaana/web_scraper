@@ -41,7 +41,6 @@ def generate_news_id(url):
     return hashlib.md5(url.encode('utf-8')).hexdigest()
 
 def news_exists(news_id):
-    """Перевіряє, чи новина з таким ID вже існує в S3"""
     try:
         response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
         if "Contents" not in response:
@@ -91,7 +90,6 @@ def get_news_batch():
     news_urls = [url.text for url in loc_urls]
     logger.info(f"🔍 Знайдено {len(news_urls)} новин у sitemap")
 
-    # Перевертаємо — обходимо від найновіших до найстаріших
     news_urls.reverse()
 
     for i, news_url in enumerate(news_urls, 1):
@@ -106,7 +104,7 @@ def get_news_batch():
 
                 if news_exists(news_id):
                     logger.info(f"✅ Новина вже існує (зупинка): {news_id}")
-                    break  # припиняємо цикл, дійшли до вже збережених
+                    break 
 
                 news_data = scrape_news(full_url)
                 if news_data and news_data.title and news_data.content.strip():
