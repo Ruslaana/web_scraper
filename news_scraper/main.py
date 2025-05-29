@@ -10,7 +10,6 @@ import xml.etree.ElementTree as ET
 from controllers.scraper import scrape_news
 from dotenv import load_dotenv
 import boto3
-import hashlib
 
 logging.basicConfig(
     level=logging.INFO,
@@ -31,36 +30,44 @@ s3 = boto3.client(
     region_name=AWS_REGION
 )
 
-def slugify(text):
-    text = text.lower()
-    text = re.sub(r'[^\w\s-]', '', text)
-    text = re.sub(r'[-\s]+', '-', text)
-    return text[:80]
-
-def generate_news_id(url):
-    return hashlib.md5(url.encode('utf-8')).hexdigest()
-
-def news_exists(news_id):
+def get_latest_id():
+    latest_id = 0
     try:
-        response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
-        if "Contents" not in response:
-            return False
-        for obj in response["Contents"]:
-            if news_id in obj["Key"]:
-                return True
-        return False
+        paginator = s3.get_paginator("list_objects_v2")
+        for page in paginator.paginate(Bucket=AWS_BUCKET_NAME, Prefix="news/"):
+            for obj in page.get("Contents", []):
+                match = re.search(r'news/(\d+)\.json$', obj["Key"])
+                if match:
+                    num = int(match.group(1))
+                    latest_id = max(latest_id, num)
     except Exception as e:
-        logger.warning(f"⚠️ news_exists помилка: {e}")
-        return False
+        logger.warning(f"⚠️ Помилка при визначенні останнього ID: {e}")
+    return latest_id
 
-def save_news_to_s3(news_data, news_url):
+def get_existing_urls():
+    urls = set()
     try:
-        title = news_data['document']['title']
-        news_id = generate_news_id(news_url)
-        slug = slugify(title)
-        filename = f"{slug}-{news_id}.json"
-        key = f"news/{filename}"
+        paginator = s3.get_paginator("list_objects_v2")
+        for page in paginator.paginate(Bucket=AWS_BUCKET_NAME, Prefix="news/"):
+            for obj in page.get("Contents", []):
+                key = obj["Key"]
+                if not key.endswith(".json"):
+                    continue
+                try:
+                    response = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=key)
+                    data = json.loads(response['Body'].read().decode('utf-8'))
+                    source = data.get("document", {}).get("metadata", {}).get("source")
+                    if source:
+                        urls.add(source)
+                except Exception as e:
+                    logger.warning(f"⚠️ Неможливо прочитати {key}: {e}")
+    except Exception as e:
+        logger.error(f"❌ Помилка при зчитуванні існуючих URL: {e}")
+    return urls
 
+def save_news_to_s3(news_data, news_id):
+    try:
+        key = f"news/{str(news_id)}.json"
         s3.put_object(
             Bucket=AWS_BUCKET_NAME,
             Key=key,
@@ -69,14 +76,14 @@ def save_news_to_s3(news_data, news_url):
         )
         logger.info(f"☁️ Збережено: {key}")
         return True
-
     except Exception as e:
         logger.error(f"❌ Помилка при збереженні: {e}")
         return False
 
-def get_news_batch():
-    sitemap_url = "https://www.berlingske.dk/sitemap.xml/tag/1"
+def get_news_batch(sitemap_url):
     seen_titles = set()
+    current_id = get_latest_id()
+    existing_urls = get_existing_urls()
 
     try:
         response = requests.get(sitemap_url)
@@ -100,29 +107,33 @@ def get_news_batch():
 
             if teaser_link and 'href' in teaser_link.attrs:
                 full_url = "https://www.berlingske.dk" + teaser_link['href']
-                news_id = generate_news_id(full_url)
 
-                if news_exists(news_id):
-                    logger.info(f"✅ Новина вже існує (зупинка): {news_id}")
-                    break 
+                if full_url in existing_urls:
+                    logger.info(f"🔁 Пропущено існуючу новину: {full_url}")
+                    continue
 
                 news_data = scrape_news(full_url)
+
                 if news_data and news_data.title and news_data.content.strip():
                     title = news_data.title.lower()
                     if title in seen_titles:
                         logger.info(f"🔁 Пропущено дублікат заголовка: {title[:60]}")
                         continue
                     seen_titles.add(title)
-                    saved = save_news_to_s3(news_data.to_dict(news_id), full_url)
-                    if saved and i % 100 == 0:
-                        print(f"📦 Скраплено: {i} новин...")
+                    existing_urls.add(full_url)
+
+                    current_id += 1
+                    saved = save_news_to_s3(news_data.to_dict(str(current_id)), current_id)
+
+                    if saved and current_id % 100 == 0:
+                        logger.info(f"📦 Скраплено: {current_id} новин...")
 
         except Exception as e:
             logger.warning(f"⚠️ Помилка при обробці {news_url}: {e}")
 
 if __name__ == "__main__":
-    get_news_batch()
-    schedule.every().hour.do(get_news_batch)
+    get_news_batch("https://www.berlingske.dk/sitemap.xml/tag/1")
+    schedule.every().hour.do(get_news_batch, "https://www.berlingske.dk/sitemap.xml/tag/1")
     logger.info("🚀 Скрепер запущено. Очікування за розкладом...")
     while True:
         schedule.run_pending()

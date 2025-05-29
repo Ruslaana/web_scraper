@@ -5,6 +5,7 @@ import boto3
 from fastapi import FastAPI
 from dotenv import load_dotenv
 from botocore.exceptions import ClientError
+import re
 
 load_dotenv()
 
@@ -23,36 +24,42 @@ s3 = boto3.client(
 )
 
 def load_all_news_keys():
+    keys = []
     try:
-        response = s3.list_objects_v2(Bucket=AWS_BUCKET_NAME, Prefix="news/")
-        return response.get("Contents", [])
+        paginator = s3.get_paginator("list_objects_v2")
+        for page in paginator.paginate(Bucket=AWS_BUCKET_NAME, Prefix="news/"):
+            for obj in page.get("Contents", []):
+                key = obj["Key"]
+                if re.match(r'news/\d+\.json$', key):
+                    keys.append(key)
     except Exception:
-        return []
+        pass
+    return keys
 
 @app.get("/latest")
 def get_latest_news():
     try:
-        items = load_all_news_keys()
-        if not items:
-            return {"error": "❌ Немає новин в архіві"}
+        keys = load_all_news_keys()
+        if not keys:
+            return {"error": "❌ Немає новин у архіві"}
 
-        latest = max(items, key=lambda x: x["LastModified"])
-        obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=latest["Key"])
+        latest_key = max(keys, key=lambda k: int(re.search(r'(\d+)\.json$', k).group(1)))
+        obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=latest_key)
         return json.loads(obj["Body"].read().decode("utf-8"))
 
     except ClientError as ce:
         return {"error": f"AWS помилка: {str(ce)}"}
     except Exception as e:
-        return {"error": f"❌ Сталася помилка: {str(e)}"}
+        return {"error": f"❌ Помилка: {str(e)}"}
 
 @app.get("/random")
 def get_random_news():
     try:
-        items = load_all_news_keys()
-        if not items:
-            return {"fallback": True, "message": "📭 Тимчасово не знайдено новин. Спробуйте пізніше."}
+        keys = load_all_news_keys()
+        if not keys:
+            return {"fallback": True, "message": "📭 Тимчасово не знайдено новин"}
 
-        random_key = random.choice(items)["Key"]
+        random_key = random.choice(keys)
         obj = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=random_key)
         return json.loads(obj["Body"].read().decode("utf-8"))
 
