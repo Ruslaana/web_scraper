@@ -7,7 +7,8 @@ import time
 import logging
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
-from controllers.scraper import scrape_news
+from xml.etree.ElementTree import ParseError
+from news_scraper.controllers.scraper import scrape_news
 from dotenv import load_dotenv
 import boto3
 
@@ -30,6 +31,7 @@ s3 = boto3.client(
     region_name=AWS_REGION
 )
 
+
 def get_latest_id():
     latest_id = 0
     try:
@@ -44,6 +46,7 @@ def get_latest_id():
         logger.warning(f"⚠️ Помилка при визначенні останнього ID: {e}")
     return latest_id
 
+
 def get_existing_urls():
     urls = set()
     try:
@@ -56,7 +59,8 @@ def get_existing_urls():
                 try:
                     response = s3.get_object(Bucket=AWS_BUCKET_NAME, Key=key)
                     data = json.loads(response['Body'].read().decode('utf-8'))
-                    source = data.get("document", {}).get("metadata", {}).get("source")
+                    source = data.get("document", {}).get(
+                        "metadata", {}).get("source")
                     if source:
                         urls.add(source)
                 except Exception as e:
@@ -64,6 +68,7 @@ def get_existing_urls():
     except Exception as e:
         logger.error(f"❌ Помилка при зчитуванні існуючих URL: {e}")
     return urls
+
 
 def save_news_to_s3(news_data, news_id):
     try:
@@ -80,6 +85,7 @@ def save_news_to_s3(news_data, news_id):
         logger.error(f"❌ Помилка при збереженні: {e}")
         return False
 
+
 def get_news_batch(sitemap_url):
     seen_titles = set()
     current_id = get_latest_id()
@@ -92,8 +98,14 @@ def get_news_batch(sitemap_url):
         logger.error(f"❌ Помилка sitemap: {e}")
         return
 
-    root = ET.fromstring(response.content)
-    loc_urls = root.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
+    try:
+        root = ET.fromstring(response.content)
+    except ParseError as e:
+        logger.error(f"❌ Помилка XML-парсингу: {e}")
+        return
+
+    loc_urls = root.findall(
+        './/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')
     news_urls = [url.text for url in loc_urls]
     logger.info(f"🔍 Знайдено {len(news_urls)} новин у sitemap")
 
@@ -117,13 +129,15 @@ def get_news_batch(sitemap_url):
                 if news_data and news_data.title and news_data.content.strip():
                     title = news_data.title.lower()
                     if title in seen_titles:
-                        logger.info(f"🔁 Пропущено дублікат заголовка: {title[:60]}")
+                        logger.info(
+                            f"🔁 Пропущено дублікат заголовка: {title[:60]}")
                         continue
                     seen_titles.add(title)
                     existing_urls.add(full_url)
 
                     current_id += 1
-                    saved = save_news_to_s3(news_data.to_dict(str(current_id)), current_id)
+                    saved = save_news_to_s3(
+                        news_data.to_dict(str(current_id)), current_id)
 
                     if saved and current_id % 100 == 0:
                         logger.info(f"📦 Скраплено: {current_id} новин...")
@@ -131,10 +145,15 @@ def get_news_batch(sitemap_url):
         except Exception as e:
             logger.warning(f"⚠️ Помилка при обробці {news_url}: {e}")
 
-if __name__ == "__main__":
+
+def run_scheduler():  # pragma: no cover
     get_news_batch("https://www.berlingske.dk/sitemap.xml/tag/1")
     schedule.every().hour.do(get_news_batch, "https://www.berlingske.dk/sitemap.xml/tag/1")
     logger.info("🚀 Скрепер запущено. Очікування за розкладом...")
     while True:
         schedule.run_pending()
         time.sleep(30)
+
+
+if __name__ == "__main__":
+    run_scheduler()
