@@ -1,9 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-from models.news_model import NewsModel
+from scraper.news_model import NewsModel
 import logging
 
 logger = logging.getLogger(__name__)
+
 
 def scrape_news(url):
     try:
@@ -18,7 +19,8 @@ def scrape_news(url):
 
         title = title_tag.get_text(strip=True) if title_tag else ""
         image_url = image_tag['src'] if image_tag else None
-        content = ' '.join(p.get_text(strip=True) for p in content_tag.find_all('p')) if content_tag else ""
+        content = ' '.join(p.get_text(strip=True)
+                           for p in content_tag.find_all('p')) if content_tag else ""
         pub_time = pub_time_tag.get_text(strip=True) if pub_time_tag else None
         author = author_tag.get_text(strip=True) if author_tag else url
 

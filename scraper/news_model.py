@@ -8,7 +8,7 @@ class NewsModel:
         self.author = author
         self.related_links = related_links
 
-    def to_dict(self, news_id):
+    def to_dict(self, news_id="latest"):
         return {
             "version": "1.0",
             "document": {
